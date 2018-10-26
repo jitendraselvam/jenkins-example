@@ -5,9 +5,7 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                bash '''#!/bin/bash
-			echo "testing"
-		'''
+                sh 'echo "hello"'
                 }
             }
         }
