@@ -5,7 +5,7 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                sh 'echo "hello"'
+                bat 'start cmd.exe /c echo "hello"'
                 }
             }
         }
