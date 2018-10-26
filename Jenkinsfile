@@ -6,7 +6,8 @@ pipeline {
 
             steps {
                 bash '''#!/bin/bash
-						echo "testing"
+			echo "testing"
+		'''
                 }
             }
         }
